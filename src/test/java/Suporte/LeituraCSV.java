@@ -11,7 +11,7 @@ public class LeituraCSV {
     public static void main(String[] args) {
         try {
             //csv file containing data
-            String strFile = "C:\\Projetos\\openCSV\\csv\\exemplo.csv";
+            String strFile = "C:\\Projetos\\LeituraCSV\\Lendo-CSV-com-OpenCSV\\csv\\exemplo.csv";
             CSVReader reader = new CSVReader(new FileReader(strFile));
             String [] nextLine;
             int lineNumber = 0;
